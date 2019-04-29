@@ -4,8 +4,8 @@
 #
 #
 ### Requirements
-BeautifulSoup - https://pypi.org/project/beautifulsoup4/
-cookies.txt - https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg?hl=en
+- BeautifulSoup - https://pypi.org/project/beautifulsoup4/
+- cookies.txt - https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg?hl=en
 
 ### Usage
 
