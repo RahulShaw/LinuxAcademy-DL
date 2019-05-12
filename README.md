@@ -7,6 +7,9 @@
 - Python 3.5 and above
 - BeautifulSoup - https://pypi.org/project/beautifulsoup4/
 - html5lib - https://pypi.org/project/html5lib/
+- Selenium - https://pypi.org/project/selenium/
+- ChromeDriver - http://chromedriver.chromium.org/
+- youtube_dl - https://pypi.org/project/youtube_dl/
 - cookies.txt - https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg?hl=en
 
 ### Usage
