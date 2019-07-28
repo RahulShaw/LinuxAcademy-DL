@@ -22,7 +22,7 @@ headers = {
 }
 
 chrome_options = Options()
-chrome_options.add_argument(f'user-agent={user_agent}')
+chrome_options.add_argument('user-agent={user_agent}')
 chrome_options.add_argument('--disable-extensions')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-gpu')
