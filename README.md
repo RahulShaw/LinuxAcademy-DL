@@ -8,7 +8,7 @@
 - BeautifulSoup - https://pypi.org/project/beautifulsoup4/
 - html5lib - https://pypi.org/project/html5lib/
 - Selenium - https://pypi.org/project/selenium/
-- ChromeDriver - http://chromedriver.chromium.org/
+- ChromeDriver - http://chromedriver.chromium.org/ [Make sure that the chromedriver.exe file is under C:\ChromeDriver]
 - youtube_dl - https://pypi.org/project/youtube_dl/
 - cookies.txt - https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg?hl=en
 
