@@ -1,4 +1,4 @@
-# LinuxAcademy-DL
+# Download videos from Linux Academy / LinuxAcademy-DL
 
 ###### Python script to download videos from your LinuxAcademy account for offline viewing
 #
