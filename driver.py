@@ -22,7 +22,7 @@ headers = {
 }
 
 chrome_options = Options()
-chrome_options.add_argument(f'user-agent={user_agent}')
+chrome_options.add_argument('user-agent={user_agent}')
 chrome_options.add_argument('--disable-extensions')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-gpu')
@@ -114,7 +114,6 @@ try:
                     'sleep_interval': 15, 'retries': 10}
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             ydl.download(temp_list)
-            temp_list.clear()
 
     print("Downloads completed!")
 except Exception as e:
