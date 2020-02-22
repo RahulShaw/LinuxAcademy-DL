@@ -82,7 +82,7 @@ parsed_html = BeautifulSoup(html, 'html5lib')
 urls = []
 lessons = []
 
-title = parsed_html.find('span', attrs={'class', 'course-title'}).text
+title = parsed_html.find('div', attrs={'class', 'course-title'}).find('span').text
 anchors = parsed_html.find_all('a', attrs={'class', 'syllabus-item'})
 
 for anchor in anchors:
