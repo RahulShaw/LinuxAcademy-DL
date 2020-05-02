@@ -11,6 +11,7 @@
 - ChromeDriver - http://chromedriver.chromium.org/
 - youtube_dl - https://pypi.org/project/youtube_dl/
 - cookies.txt - https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg?hl=en
+- FFmpeg (https://www.ffmpeg.org/) or avconv (https://libav.org/avconv.html)
 
 ### Usage
 
