@@ -30,7 +30,7 @@
 ### What's New
 
  - Now less verbose
- - Minor enchancements and fixes
+ - Minor enhancements and fixes
 
 ### To-Do
 Automate the process for obtaining cookies
