@@ -2,6 +2,9 @@
 
 ###### Python script to download videos from your LinuxAcademy account for offline viewing
 ![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)
+
+![LinuxAcademy-DL](https://i.imgur.com/RBPjtsv.png)
+
 ### Requirements
 - Python 3.6 and above
 - BeautifulSoup - https://pypi.org/project/beautifulsoup4/
