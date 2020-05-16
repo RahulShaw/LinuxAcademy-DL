@@ -9,7 +9,7 @@
 - Selenium - https://pypi.org/project/selenium/
 - ChromeDriver - http://chromedriver.chromium.org/
 - youtube_dl - https://pypi.org/project/youtube_dl/
-- cookies.txt - https://chrome.google.com/webstore/detail/cookiestxt/njabckikapfpffapmjgojcnbfjonfjfg?hl=en
+- Get cookies.txt - https://bit.ly/GoogleChrome-GetCookiesTxt
 - FFMpeg - https://www.ffmpeg.org/download.html
 
 ### Usage
@@ -20,7 +20,11 @@
 
 > FFmpeg should be installed and available on the path
 
-> Login to LinuxAcademy and visit the course page e.g. https://linuxacademy.com/cp/modules/view/id/287 and with the `cookies.txt` extention installed, click on the icon of the extension and choose `To download cookies for this tab click here`. Copy the downloaded txt file to root of the cloned repo. Make sure that the name of the file is ``cookies.txt``. Repeat when you an encounter exception in downloading the videos (assuming you have an active subscription).
+> Login to LinuxAcademy and visit the course page e.g. https://linuxacademy.com/cp/modules/view/id/287 and with the `Get cookies.txt` extension installed, click on the icon of the extension and click on `Export`. 
+
+![Get cookies.txt](https://i.imgur.com/BND0mvs.png)
+
+> Rename the downloaded `linuxacademy.com_cookies.txt` file to `cookies.txt` and copy it to root of the cloned repo. Make sure that the name of the file is ``cookies.txt``. Repeat when you encounter an exception while downloading the videos (assuming you have an active subscription).
 
 > course_link e.g. https://linuxacademy.com/cp/modules/view/id/287
 
