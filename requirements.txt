@@ -1,3 +1,4 @@
 beautifulsoup4
+html5lib
 selenium
 youtube-dl
