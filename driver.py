@@ -72,9 +72,8 @@ else:
 
 browser.set_page_load_timeout(10000)
 browser.set_window_size(1366, 768)
-browser.get('https://linuxacademy.com/')
-link = browser.find_element_by_partial_link_text('Log In')
-link.click()
+
+browser.get('https://linuxacademy.com/cp/ssologin')
 time.sleep(15)
 
 print('* Trying to log in ... *')
