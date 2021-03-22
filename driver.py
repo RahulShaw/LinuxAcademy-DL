@@ -85,9 +85,12 @@ password.send_keys(Keys.RETURN)
 time.sleep(30)
 
 try:
-    logged_in_name = browser.find_element_by_id('navigationUsername')
-    if logged_in_name:
+    if 'site-content/uploads/' in browser.current_url:
         print('\033[92m~ Logged in! ~\033[0m')
+    else:
+        logged_in_name = browser.find_element_by_id('navigationUsername')
+        if logged_in_name:
+            print('\033[92m~ Logged in! ~\033[0m')
 except Exception as e:
     raise Exception(' ** Failed to log in. Please check your credentials. **')
 
