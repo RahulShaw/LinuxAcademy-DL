@@ -55,20 +55,20 @@ chrome_options.add_argument('--allow-running-insecure-content')
 chrome_options.add_argument('--headless')
 chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
-if platform.system() == 'Linux':
-    if os.path.exists("/usr/bin/chromedriver"):
-        browser = webdriver.Chrome(executable_path="/usr/bin/chromedriver",
-                                   options=chrome_options)
+chromedriver_path = shutil.which('chromedriver')
+if chromedriver_path is None:
+    if platform.system() == 'Linux':
+        chromedriver_path = '/usr/bin/chromedriver'
+    elif platform.system() == 'Darwin':
+        chromedriver_path = '/usr/local/bin/chromedriver'
     else:
-        print("Chromedriver not found; expected path '/usr/bin/chromedriver'")
-        exit(1)
+        chromedriver_path = 'C:/ChromeDriver/chromedriver.exe'
+
+if os.path.exists(chromedriver_path):
+    browser = webdriver.Chrome(executable_path=chromedriver_path, options=chrome_options)
 else:
-    if os.path.exists("C:/ChromeDriver/chromedriver.exe"):
-        browser = webdriver.Chrome(executable_path="C:/ChromeDriver/chromedriver.exe",
-                                   options=chrome_options)
-    else:
-        print("Chromedriver not found; expected path 'C:/ChromeDriver/chromedriver.exe'")
-        exit(1)
+    print("Chromedriver not found; expected path", chromedriver_path)
+    exit(1)
 
 browser.set_page_load_timeout(10000)
 browser.set_window_size(1366, 768)
